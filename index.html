@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DailyNews</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>DailyNews</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">World</a>
+      <a href="#">Tech</a>
+      <a href="#">Sports</a>
+      <a href="#">Contact</a>from flask import Flask
+
+
+    </nav>
+    <div class="date-time" id="dateTime">Loading time...</div>
+  </header>
+
+  <main>
+
+    <main>
+  <div class="search-bar">
+    <input type="text" id="searchInput" placeholder="Search news..." />
+    <button onclick="searchArticles()">Search</button>
+  </div>
+
+  <div class="articles-table" id="articlesContainer">
+    <!-- Your articles here -->
+  </div>
+
+
+</main>
+
+    <div class="articles-table">
+      <div class="article">
+        <img src="https://via.placeholder.com/300x150" alt="Tech News">
+        <h2>Breaking: New Tech Unveiled</h2>
+        <p>A tech company released a gadget with amazing features. More details to follow...</p>
+        <a href="#" class="read-more">Read more</a>
+      </div>
+
+      <div class="article">
+        <img src="https://via.placeholder.com/300x150" alt="Sports News">
+        <h2>Championship Highlights</h2>
+        <p>The finals delivered one of the most thrilling finishes in recent memory...</p>
+        <a href="#" class="read-more">Read more</a>
+      </div>
+
+      <div class="article">
+        <img src="https://via.placeholder.com/300x150" alt="World News">
+        <h2>Global Summit in Progress</h2>
+        <p>Leaders are meeting to discuss key global issues including climate and security.</p>
+        <a href="#" class="read-more">Read more</a>
+      </div>
+
+      <div class="article">
+        <img src="https://via.placeholder.com/300x150" alt="Science News">
+        <h2>Mars Discovery Announced</h2>
+        <p>NASA finds evidence that Mars may have supported microbial life.</p>
+        <a href="#" class="read-more">Read more</a>
+      </div>
+
+      <div class="article">
+        <img src="https://via.placeholder.com/300x150" alt="Local News">
+        <h2>Park Renovation Completed</h2>
+        <p>The central park now features a playground, trails, and more green space.</p>
+        <a href="#" class="read-more">Read more</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 DailyNews. All rights reserved.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
